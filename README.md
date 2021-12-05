@@ -1,28 +1,45 @@
+
+Hello Reader! This is a readme file for 'Femi Jegede's Customer Delivery Time project
+
+
 # Last Mile Delivery: Optimizing  Customer Delivery Time 
 
-With the surge in e-commerce, there is a lot of pressure on logistic operations. The last mile is arguably the biggest problem in e-commerce as it addresses the question, “When will I receive my order?”. Last mile delivery is the most expensive and time consuming part of the shipping process. According to Mantoria inc,a logistics company, up to 30% of overall delivery costs can be incurred in that final stage of order fulfillment. So how does one reduce the cost and improve customer satisfaction by on time delivery?
+With the surge in e-commerce, there is a lot of pressure on logistic operations. The last mile is arguably the biggest problem in e-commerce as it addresses the question, “When will I receive my order?”. The focus of this project is to optimize the customer time prediction thereby reducing cost associated with last mile problems and improve customer satisfaction
+
 
 # Contents
+- 1 readme file - description and instruction on project
 
-- Problem Statement
-- The Data
-- EDA
+- 1 Business report
+
+- 1 requirement document
+
+- 4 jupyter notebooks
+
+- 1 data folder - containing 9 CSV files  from Olist database and 1 png file of the schema
+
+- 1 clean data folder - 3 CSV files containing processed data used in the project
+
+- 1 log file 
+
+- 1 tableau file for visualization
 
 
-## Problem Statement
+# Jupyter Notebooks
+The 4 jupyter notebooks are to be run in this order
 
-`“How might we optimize customer delivery time by predicting future orders from historical data (including both external and internal factors)?”`
+- EDA and pre-processing 
 
-We would like to build a model from historical orders and various derived features. The required features will be identified by an interactive process, from a broad range of available features in the data provided. The required range of features to be used for this project is divided in 3 broad categories:
+- Feature Engineering and Modeling: Pycaret - modeling selection notebook comes in between modleing and was run on Google colab due to environment dependencies.
+
+- Findings and Next steps
+
+# Tableau 
+
+The clean_data.csv was used for the tableau visulization
 
 
-- Customer:  This includes but not limited to, customer location, type of customer, type of apartment etc  
-- Order: This includes order size, order weight,purchase date,approval date,   
-- External Factors:  This includes mostly weather conditions; Rainfall and Temperature. Others are Holidays, traffic etc.
+All files in this notebook can be run in on an environment 1 created, you can check the requirements.txt file to check the packages used
 
-The above includes only measurable and predictable features, features such as sick drivers, accidents etc are not going to be included in our analysis.
 
-## The Data
-
-The data to be used is the Olist public data sets available on Kaggle. This dataset was generously provided by Olist, the largest department store in Brazilian marketplaces. Olist connects small businesses from all over Brazil to channels without hassle and with a single contract. Those merchants are able to sell their products through the Olist Store and ship them directly to the customers using Olist logistics partners.The dataset has information of 100k orders from 2016 to 2018 made at multiple marketplaces in Brazil. 
-
+If you are having trouble accessing any of the files within this folder please contact me on jegede45@gmail.com
