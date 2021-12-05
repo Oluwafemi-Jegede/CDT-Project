@@ -22,8 +22,6 @@ With the surge in e-commerce, there is a lot of pressure on logistic operations.
 
 - 1 log file 
 
-- 1 tableau file for visualization
-
 
 # Jupyter Notebooks
 The 4 jupyter notebooks are to be run in this order
@@ -33,10 +31,6 @@ The 4 jupyter notebooks are to be run in this order
 - Feature Engineering and Modeling: Pycaret - modeling selection notebook comes in between modleing and was run on Google colab due to environment dependencies.
 
 - Findings and Next steps
-
-# Tableau 
-
-The clean_data.csv was used for the tableau visulization
 
 
 All files in this notebook can be run in on an environment 1 created, you can check the requirements.txt file to check the packages used
