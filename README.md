@@ -2,17 +2,17 @@
 Hello Reader! This is a readme file for 'Femi Jegede's Customer Delivery Time project
 
 
-# Last Mile Delivery: Optimizing  Customer Delivery Time 
+## Last Mile Delivery: Optimizing  Customer Delivery Time 
 
 With the surge in e-commerce, there is a lot of pressure on logistic operations. The last mile is arguably the biggest problem in e-commerce as it addresses the question, “When will I receive my order?”. The focus of this project is to optimize the customer time prediction thereby reducing cost associated with last mile problems and improve customer satisfaction
 
 
-# Contents
+## Contents
 - 1 readme file - description and instruction on project
 
 - 1 Business report
 
-- 1 requirement document
+- 1 requirement document - this is to help in replicating environments
 
 - 4 jupyter notebooks
 
@@ -20,10 +20,8 @@ With the surge in e-commerce, there is a lot of pressure on logistic operations.
 
 - 1 clean data folder - 3 CSV files containing processed data used in the project
 
-- 1 log file 
 
-
-# Jupyter Notebooks
+## Jupyter Notebooks
 The 4 jupyter notebooks are to be run in this order
 
 - EDA and pre-processing 
